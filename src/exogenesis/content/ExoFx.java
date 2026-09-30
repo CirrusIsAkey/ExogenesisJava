@@ -1556,13 +1556,13 @@ public class ExoFx{
                     });
                 });
             }),
-           calamityExplostion = new Effect(170F, 1600f, e -> {
-               float rad = 105f;
+           calamityExplostion = new Effect(70F, 1600f, e -> {
+               float rad = 25f;
                rand.setSeed(e.id);
 
                Draw.color(Color.white, e.color, e.fin() + 0.6f);
                float circleRad = e.fin(Interp.circleOut) * rad * 4f;
-               Lines.stroke(7 * e.fout());
+               Lines.stroke(5 * e.fout());
                Lines.circle(e.x, e.y, circleRad);
                for(int i = 0; i < 24; i++){
                    Tmp.v1.set(1, 0).setToRandomDirection(rand).scl(circleRad);
@@ -1687,9 +1687,29 @@ public class ExoFx{
                 maxRot = 380.0F;
                 layer = 110.005F;
             }},
+            CatastropheSwirl = new SwirlEffect(){{
+                lifetime = 45.0F;
+                colorFrom = ExoPal.genesisTitan;
+                colorTo = Pal.techBlue;
+                length = 5;
+                width = 3;
+                minRot = 100.0F;
+                maxRot = 380.0F;
+                layer = 110.005F;
+            }},
             redStarSwirl = new SwirlEffect(){{
                 lifetime = 75.0F;
                 length = 8;
+                width = 3;
+                minRot = 100.0F;
+                maxRot = 380.0F;
+                layer = 110.005F;
+            }},
+            geocompleStarSwirl = new SwirlEffect(){{
+                lifetime = 75.0F;
+                colorFrom = ExoPal.geoComplexBlue;
+                colorTo = Pal.lancerLaser;
+                length = 5;
                 width = 3;
                 minRot = 100.0F;
                 maxRot = 380.0F;

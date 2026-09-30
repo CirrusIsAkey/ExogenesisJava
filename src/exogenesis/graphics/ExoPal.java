@@ -27,11 +27,11 @@ coldcolor = Color.valueOf("6bc7ff"),
 erekirPinkLight = Color.valueOf("#ffcbdd"),
 erekirPink = Color.valueOf("d370d3"),
 erekirPurple = Color.valueOf("9681fb"),
-cronusRedlight = Color.valueOf("ffadad"),
-cronusRed = Color.valueOf("ff6363"),
+cronusRedlight = Color.valueOf("ffd2d2"),
+cronusRed = Color.valueOf("ff8080"),
 
 erekirYellow = Color.valueOf("ffbe5d"),
-cronusRedDark = Color.valueOf("e13131"),
+cronusRedDark = Color.valueOf("ff2626"),
  adGreenLight = Color.valueOf("c3ff73"),
 radGreen = Color.valueOf("7fd957"),
 radGreenDark = Color.valueOf("3eaf44"),
@@ -66,5 +66,6 @@ empyreanIndigo = Color.valueOf("bfb1ff"),
 empyreanIndigoLight = Color.valueOf("f3deff"),
 empyreanIndigoDark = Color.valueOf("9681fb"),
 empyreanOutline = Color.valueOf("1e1e1e"),
-geoComplexOutline = Color.valueOf("1a1a1a");
+geoComplexOutline = Color.valueOf("1a1a1a"),
+geoComplexBlue = Color.valueOf("6371d6");
 }
